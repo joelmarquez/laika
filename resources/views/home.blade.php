@@ -123,9 +123,9 @@
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Product name-->
-                                        <h5 class="fw-bolder"><?= $products[0][0] ?></h5>
+                                        <h5 class="fw-bolder">{{$products[0][0]}}</h5>
                                         <!-- Product price-->
-                                        $<?= $products[0][1] ?> - $<?= $products[0][2] ?>
+                                        ${{$products[0][1]}} - ${{$products[0][2]}}
                                     </div>
                                 </div>
                                 <!-- Product actions-->
@@ -144,7 +144,7 @@
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Product name-->
-                                        <h5 class="fw-bolder"><?= $products[1][0] ?></h5>
+                                        <h5 class="fw-bolder">{{$products[1][0]}}</h5>
                                         <!-- Product reviews-->
                                         <div class="d-flex justify-content-center small text-warning mb-2">
                                             <div class="bi-star-fill"></div>
@@ -154,8 +154,8 @@
                                             <div class="bi-star-fill"></div>
                                         </div>
                                         <!-- Product price-->
-                                        <span class="text-muted text-decoration-line-through">$<?= $products[1][1] ?></span>
-                                        $<?= $products[1][2] ?>
+                                        <span class="text-muted text-decoration-line-through">${{$products[1][1]}}</span>
+                                        ${{$products[1][2]}}
                                     </div>
                                 </div>
                                 <!-- Product actions-->
@@ -174,10 +174,10 @@
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Product name-->
-                                        <h5 class="fw-bolder"><?= $products[2][0] ?></h5>
+                                        <h5 class="fw-bolder">{{$products[2][0]}}</h5>
                                         <!-- Product price-->
-                                        <span class="text-muted text-decoration-line-through">$<?= $products[2][1] ?></span>
-                                        $<?= $products[2][2] ?>
+                                        <span class="text-muted text-decoration-line-through">${{$products[2][1]}}</span>
+                                        ${{$products[2][2]}}
                                     </div>
                                 </div>
                                 <!-- Product actions-->
@@ -194,7 +194,7 @@
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Product name-->
-                                        <h5 class="fw-bolder"><?= $products[3][0] ?></h5>
+                                        <h5 class="fw-bolder">{{$products[3][0]}}</h5>
                                         <!-- Product reviews-->
                                         <div class="d-flex justify-content-center small text-warning mb-2">
                                             <div class="bi-star-fill"></div>
@@ -204,7 +204,7 @@
                                             <div class="bi-star-fill"></div>
                                         </div>
                                         <!-- Product price-->
-                                        $<?= $products[3][1] ?>
+                                        ${{$products[3][1]}}
                                     </div>
                                 </div>
                                 <!-- Product actions-->
@@ -223,10 +223,10 @@
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Product name-->
-                                        <h5 class="fw-bolder"><?= $products[4][0] ?></h5>
+                                        <h5 class="fw-bolder">{{$products[4][0]}}</h5>
                                         <!-- Product price-->
-                                        <span class="text-muted text-decoration-line-through">$<?= $products[4][1] ?></span>
-                                        $<?= $products[4][2]?>
+                                        <span class="text-muted text-decoration-line-through">${{$products[4][1]}}</span>
+                                        ${{$products[4][2]}}
                                     </div>
                                 </div>
                                 <!-- Product actions-->
@@ -243,9 +243,9 @@
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Product name-->
-                                        <h5 class="fw-bolder"><?= $products[5][0] ?></h5>
+                                        <h5 class="fw-bolder">{{$products[5][0]}}</h5>
                                         <!-- Product price-->
-                                        $<?= $products[5][1] ?> - $<?= $products[5][2] ?>
+                                        ${{$products[5][1]}} - ${{$products[5][2]}}
                                     </div>
                                 </div>
                                 <!-- Product actions-->
@@ -264,7 +264,7 @@
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Product name-->
-                                        <h5 class="fw-bolder"><?= $products[6][0] ?></h5>
+                                        <h5 class="fw-bolder">{{$products[6][0]}}</h5>
                                         <!-- Product reviews-->
                                         <div class="d-flex justify-content-center small text-warning mb-2">
                                             <div class="bi-star-fill"></div>
@@ -274,8 +274,8 @@
                                             <div class="bi-star-fill"></div>
                                         </div>
                                         <!-- Product price-->
-                                        <span class="text-muted text-decoration-line-through">$<?= $products[6][1] ?></span>
-                                        $<?= $products[6][2] ?>
+                                        <span class="text-muted text-decoration-line-through">${{$products[6][1]}}</span>
+                                        ${{$products[6][2]}}
                                     </div>
                                 </div>
                                 <!-- Product actions-->
@@ -292,7 +292,7 @@
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Product name-->
-                                        <h5 class="fw-bolder"><?= $products[7][0] ?></h5>
+                                        <h5 class="fw-bolder">{{$products[7][0]}}</h5>
                                         <!-- Product reviews-->
                                         <div class="d-flex justify-content-center small text-warning mb-2">
                                             <div class="bi-star-fill"></div>
@@ -302,7 +302,7 @@
                                             <div class="bi-star-fill"></div>
                                         </div>
                                         <!-- Product price-->
-                                        $<?= $products[7][1] ?>
+                                        ${{$products[7][1]}}
                                     </div>
                                 </div>
                                 <!-- Product actions-->
