@@ -123,14 +123,14 @@
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Product name-->
-                                        <h5 class="fw-bolder">Fancy Product</h5>
+                                        <h5 class="fw-bolder"><?= $products[0][0] ?></h5>
                                         <!-- Product price-->
-                                        $40.00 - $80.00
+                                        $<?= $products[0][1] ?> - $<?= $products[0][2] ?>
                                     </div>
                                 </div>
                                 <!-- Product actions-->
                                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a></div>
                                 </div>
                             </div>
                         </div>
@@ -144,7 +144,7 @@
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Product name-->
-                                        <h5 class="fw-bolder">Special Item</h5>
+                                        <h5 class="fw-bolder"><?= $products[1][0] ?></h5>
                                         <!-- Product reviews-->
                                         <div class="d-flex justify-content-center small text-warning mb-2">
                                             <div class="bi-star-fill"></div>
@@ -154,13 +154,13 @@
                                             <div class="bi-star-fill"></div>
                                         </div>
                                         <!-- Product price-->
-                                        <span class="text-muted text-decoration-line-through">$20.00</span>
-                                        $18.00
+                                        <span class="text-muted text-decoration-line-through">$<?= $products[1][1] ?></span>
+                                        $<?= $products[1][2] ?>
                                     </div>
                                 </div>
                                 <!-- Product actions-->
                                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a></div>
                                 </div>
                             </div>
                         </div>
@@ -174,15 +174,15 @@
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Product name-->
-                                        <h5 class="fw-bolder">Sale Item</h5>
+                                        <h5 class="fw-bolder"><?= $products[2][0] ?></h5>
                                         <!-- Product price-->
-                                        <span class="text-muted text-decoration-line-through">$50.00</span>
-                                        $25.00
+                                        <span class="text-muted text-decoration-line-through">$<?= $products[2][1] ?></span>
+                                        $<?= $products[2][2] ?>
                                     </div>
                                 </div>
                                 <!-- Product actions-->
                                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a></div>
                                 </div>
                             </div>
                         </div>
@@ -194,7 +194,7 @@
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Product name-->
-                                        <h5 class="fw-bolder">Popular Item</h5>
+                                        <h5 class="fw-bolder"><?= $products[3][0] ?></h5>
                                         <!-- Product reviews-->
                                         <div class="d-flex justify-content-center small text-warning mb-2">
                                             <div class="bi-star-fill"></div>
@@ -204,12 +204,12 @@
                                             <div class="bi-star-fill"></div>
                                         </div>
                                         <!-- Product price-->
-                                        $40.00
+                                        $<?= $products[3][1] ?>
                                     </div>
                                 </div>
                                 <!-- Product actions-->
                                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a></div>
                                 </div>
                             </div>
                         </div>
@@ -223,15 +223,15 @@
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Product name-->
-                                        <h5 class="fw-bolder">Sale Item</h5>
+                                        <h5 class="fw-bolder"><?= $products[4][0] ?></h5>
                                         <!-- Product price-->
-                                        <span class="text-muted text-decoration-line-through">$50.00</span>
-                                        $25.00
+                                        <span class="text-muted text-decoration-line-through">$<?= $products[4][1] ?></span>
+                                        $<?= $products[4][2]?>
                                     </div>
                                 </div>
                                 <!-- Product actions-->
                                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a></div>
                                 </div>
                             </div>
                         </div>
@@ -243,14 +243,14 @@
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Product name-->
-                                        <h5 class="fw-bolder">Fancy Product</h5>
+                                        <h5 class="fw-bolder"><?= $products[5][0] ?></h5>
                                         <!-- Product price-->
-                                        $120.00 - $280.00
+                                        $<?= $products[5][1] ?> - $<?= $products[5][2] ?>
                                     </div>
                                 </div>
                                 <!-- Product actions-->
                                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a></div>
                                 </div>
                             </div>
                         </div>
@@ -264,7 +264,7 @@
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Product name-->
-                                        <h5 class="fw-bolder">Special Item</h5>
+                                        <h5 class="fw-bolder"><?= $products[6][0] ?></h5>
                                         <!-- Product reviews-->
                                         <div class="d-flex justify-content-center small text-warning mb-2">
                                             <div class="bi-star-fill"></div>
@@ -274,13 +274,13 @@
                                             <div class="bi-star-fill"></div>
                                         </div>
                                         <!-- Product price-->
-                                        <span class="text-muted text-decoration-line-through">$20.00</span>
-                                        $18.00
+                                        <span class="text-muted text-decoration-line-through">$<?= $products[6][1] ?></span>
+                                        $<?= $products[6][2] ?>
                                     </div>
                                 </div>
                                 <!-- Product actions-->
                                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a></div>
                                 </div>
                             </div>
                         </div>
@@ -292,7 +292,7 @@
                                 <div class="card-body p-4">
                                     <div class="text-center">
                                         <!-- Product name-->
-                                        <h5 class="fw-bolder">Popular Item</h5>
+                                        <h5 class="fw-bolder"><?= $products[7][0] ?></h5>
                                         <!-- Product reviews-->
                                         <div class="d-flex justify-content-center small text-warning mb-2">
                                             <div class="bi-star-fill"></div>
@@ -302,12 +302,12 @@
                                             <div class="bi-star-fill"></div>
                                         </div>
                                         <!-- Product price-->
-                                        $40.00
+                                        $<?= $products[7][1] ?>
                                     </div>
                                 </div>
                                 <!-- Product actions-->
                                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Agregar al carrito</a></div>
                                 </div>
                             </div>
                         </div>
