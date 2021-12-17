@@ -336,16 +336,22 @@ select:focus {
 
 #menu ul li a:hover{
   background: linear-gradient(to bottom, #541b83 0px, #a941ff 100%);
+  
   color: #ffffff;
+}
+
+#menu ul li a:last-child {
+  border-right: none; 
 }
 
 #menu ul li a {
   display: block;
-  padding-left: 2rem;
+  padding-left: 1rem;
   padding-right: 2rem;
   font-size: 15px;
   color:#603e85;
-  font-weight: 600;
+  font-weight: bolder;
+  border-right: none;
 }
 
 
